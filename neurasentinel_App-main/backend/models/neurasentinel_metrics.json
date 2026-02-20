@@ -1,0 +1,159 @@
+{
+  "class_names": [
+    "Forehand",
+    "Backhand",
+    "Smash",
+    "Push",
+    "Block",
+    "Flick",
+    "Serve",
+    "Chop"
+  ],
+  "test_accuracy": 0.9841269850730896,
+  "test_loss": 0.07557787746191025,
+  "confusion_matrix": [
+    [
+      63,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      62,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      2,
+      0,
+      59,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      63,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      63,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      63,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      2,
+      0,
+      0,
+      60,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      63
+    ]
+  ],
+  "classification_report": {
+    "Forehand": {
+      "precision": 0.9692307692307692,
+      "recall": 1.0,
+      "f1-score": 0.984375,
+      "support": 63.0
+    },
+    "Backhand": {
+      "precision": 1.0,
+      "recall": 0.9841269841269841,
+      "f1-score": 0.992,
+      "support": 63.0
+    },
+    "Smash": {
+      "precision": 0.9833333333333333,
+      "recall": 0.9365079365079365,
+      "f1-score": 0.959349593495935,
+      "support": 63.0
+    },
+    "Push": {
+      "precision": 0.9692307692307692,
+      "recall": 1.0,
+      "f1-score": 0.984375,
+      "support": 63.0
+    },
+    "Block": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 63.0
+    },
+    "Flick": {
+      "precision": 0.9692307692307692,
+      "recall": 1.0,
+      "f1-score": 0.984375,
+      "support": 63.0
+    },
+    "Serve": {
+      "precision": 0.9836065573770492,
+      "recall": 0.9523809523809523,
+      "f1-score": 0.967741935483871,
+      "support": 63.0
+    },
+    "Chop": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 63.0
+    },
+    "accuracy": 0.9841269841269841,
+    "macro avg": {
+      "precision": 0.9843290248003363,
+      "recall": 0.9841269841269842,
+      "f1-score": 0.9840270661224757,
+      "support": 504.0
+    },
+    "weighted avg": {
+      "precision": 0.9843290248003363,
+      "recall": 0.9841269841269841,
+      "f1-score": 0.9840270661224758,
+      "support": 504.0
+    }
+  }
+}
